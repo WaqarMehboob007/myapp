@@ -62,8 +62,8 @@ export default function Home() {
       const [bgImage, setbgImage] = useState(MotherDayImages);
       const [data, setdata] = useState({
             to: "Waqar",
-            from: "Mehboob",
-            message: "I wish this Birthday will bring happiness and Joy in you Life and May Allah Bestow his Countless Blessing upon You.",
+            from: "Parents",
+            message: "I wish this Birthday will bring happiness and Joy in you Life and May Allah Bestow HIS Countless Blessing upon You.",
       });
 
       useEffect(() => {

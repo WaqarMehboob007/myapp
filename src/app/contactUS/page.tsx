@@ -6,6 +6,9 @@ export default function Contact() {
 
      
 <div className="px-4 mx-auto flex flex-col py-10">
+      <Link href={'#'}  className='bg-green-800 p-2 rounded-full text-white order-last text-center text-sm md:w-40'>
+            Back to Home
+      </Link>
       <div className="max-w-2xl mx-auto mb-18 text-center">
             <span className="inline-block p-2 px-4 md:px-6 my-4 md:my-1 text-xs md:text-base md:font-semibold font-medium text-white bg-black rounded-full">Raedy to Support</span>
             <h1 className="md:text-5xl text-xl font-bold text-black md:my-10">
