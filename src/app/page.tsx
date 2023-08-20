@@ -110,7 +110,7 @@ export default function Home() {
                                                 className="flex w-full font-sans bg-gray-100 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                                           >
                                                 {greetingArray.map((item, index) => (
-                                                      <option className="">{item}</option>
+                                                      <option key={index} className="">{item}</option>
                                                 ))}
                                           </select>
                                     </div>

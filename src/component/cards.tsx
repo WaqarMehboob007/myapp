@@ -5,7 +5,7 @@ import {useState} from 'react'
 import { Data } from '@/app/page'
 import Link from 'next/link'
 
-const cards = (props:{bgImage:string[], data:Data, greeting:string}) => {
+const Cards = (props:{bgImage:string[], data:Data, greeting:string}) => {
     const RelatedImages = props.bgImage;
 
     const [curIndex, setcurIndex] = useState(0);
@@ -84,5 +84,5 @@ const cards = (props:{bgImage:string[], data:Data, greeting:string}) => {
   )
 }
 
-export default cards
+export default Cards
 
